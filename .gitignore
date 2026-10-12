@@ -1,0 +1,7 @@
+# Large binary installer (distributed via GitHub Releases)
+*.mlappinstall
+
+# OS & temporary files
+.DS_Store
+Thumbs.db
+*.asv
