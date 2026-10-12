@@ -8,6 +8,7 @@
 ![GPU Coder](https://img.shields.io/badge/GPU%20Coder-TensorRT%20%7C%20cuDNN-76b900)
 ![Targets](https://img.shields.io/badge/Targets-Windows%20%7C%20Jetson%20%7C%20DRIVE-0078d4)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2064--bit-555)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 📖 **[User Manual (EN)](docs/USER_MANUAL.md)** · 📖 **[Kullanım Kılavuzu (TR)](docs/KULLANIM_KILAVUZU.md)** · ⬇️ **[Download App (Releases)](https://github.com/dogukankilinc/YOLO26-MATLAB-Studio/releases)**
 
@@ -138,7 +139,10 @@ RTX 4050 Laptop GPU · YOLO26n · TensorRT · FP32 · MEX: **25.2 FPS · 39.6 ms
 * The ONNX workflow simplifies the attention part of the network for GPU Coder compatibility; accuracy can differ slightly from the original Ultralytics model.
 * Fixed input size 640×640×3, batch 1. TensorRT engines are tied to the specific GPU architecture they were compiled on.
 * *Start Build* cross-compiles for NVIDIA Jetson (compute capability 8.7, Orin); NVIDIA DRIVE is supported through the generated Simulink model.
-* Tested on Windows 11 with MATLAB R2026a.
+## License & Disclaimers
+
+This project is licensed under the [MIT License](LICENSE).  
+MATLAB® and Simulink® are registered trademarks of The MathWorks, Inc. YOLO is a trademark of Ultralytics Inc. NVIDIA®, CUDA®, TensorRT™, and Jetson™ are trademarks of NVIDIA Corporation. This is an independent community development tool.
 
 ---
 
