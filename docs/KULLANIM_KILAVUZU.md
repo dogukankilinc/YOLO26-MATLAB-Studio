@@ -4,7 +4,7 @@
 
 **Tüm ekranlar için adım adım rehber: Host Windows, NVIDIA Jetson ve NVIDIA DRIVE iş akışları**
 
-[README](../README.md#türkçe) · [English manual → USER_MANUAL.md](USER_MANUAL.md)
+[README (English)](../README.md) · [README (Türkçe)](../README_TR.md) · [English Manual → USER_MANUAL.md](USER_MANUAL.md)
 
 </div>
 
